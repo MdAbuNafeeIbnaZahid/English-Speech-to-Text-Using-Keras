@@ -1,0 +1,17 @@
+- Download and install anaconda manually (let anaconda change the path variable)
+- Execute these commands. Make sure you are in the parent directory of the project folder.
+conda update conda
+conda update anaconda
+conda install tensorflow
+conda install keras
+conda install h5py
+conda install ipykernel
+conda install jupyter
+pip install librosa
+pip install opencv-python
+pip install python-speech-features
+conda install seaborn
+pip install soundfile
+sudo apt-get install libav-tools
+python create_desc_json.py LibriSpeech/dev-clean/ train_corpus.json
+python create_desc_json.py LibriSpeech/test-clean/ valid_corpus.json
